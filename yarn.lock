@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 10
   cacheKey: 10c0
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -11295,13 +11295,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-compressor@npm:1.19.0":
-  version: 1.19.0
-  resolution: "react-native-compressor@npm:1.19.0"
+"react-native-compressor@npm:1.19.4":
+  version: 1.19.4
+  resolution: "react-native-compressor@npm:1.19.4"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/1230743f58544abad858f5f6deef933f8734b9ef9320034b073f353ce7a52f5ea285b226af492cca1ba3bc02a69cc16af0f28f18c9fe2f1d2f8e6fed4fd105ab
+  checksum: 10c0/852841b60d530935e33819bc40beb1fe05a6cdfdf389ae1d20a1e3b6ad2a6bf079cdcdaf2351a15668141e5ff2563a6f9d7a39530b11f3e108d6eafe491ab6c0
   languageName: node
   linkType: hard
 
@@ -12132,40 +12132,40 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10c0/0446f024439cd2e50c6c8fa8ba77eaa8370b4180f401a96abf3d1ebc770ac51c1955e12764cde449fde3fff480a61f84388e3505ecdbab778f4bef5f8212c729
+  checksum: 10c0/4bc6de64a713422234e0e773bff296767d77d6e545b98042ff90a796d356f2b131853f4fa1d54e2c415aa6efa6dc2eed5b3f501f63164f834619fda900e33b8e
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.10#optional!builtin<compat/resolve>":
   version: 1.22.10
-  resolution: "resolve@patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.10#optional!builtin<compat/resolve>::version=1.22.10&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.16.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10c0/52a4e505bbfc7925ac8f4cd91fd8c4e096b6a89728b9f46861d3b405ac9a1ccf4dcbf8befb4e89a2e11370dacd0160918163885cbc669369590f2f31f4c58939
+  checksum: 10c0/da5c4a85971e6eeb821805d117092321c6c257a6e1e45382c0b7ef41368a7e98690e01a08bac88b111443410a49e2fb17d1802ac5c51c8fc5532d77bef9f4be9
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@npm%3A^2.0.0-next.4#optional!builtin<compat/resolve>":
   version: 2.0.0-next.5
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#optional!builtin<compat/resolve>::version=2.0.0-next.5&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10c0/78ad6edb8309a2bfb720c2c1898f7907a37f858866ce11a5974643af1203a6a6e05b2fa9c53d8064a673a447b83d42569260c306d43628bff5bb101969708355
+  checksum: 10c0/9f2cb75a47ee17edca53b3a4e96883e82fe92dadc323a19868621b897da5136f7dd3189b7bac4d4e7715bb3b2fd5c1e8c5145ebccc7e0368b1546206f9644c12
   languageName: node
   linkType: hard
 
@@ -12372,7 +12372,7 @@ __metadata:
     react: "npm:18.2.0"
     react-native: "npm:0.73.11"
     react-native-airplay-button: "npm:^1.1.0"
-    react-native-compressor: "npm:1.19.0"
+    react-native-compressor: "npm:1.19.4"
     react-native-config: "npm:1.5.9"
     react-native-device-info: "npm:^15.0.2"
     react-native-dropdownalert: "npm:^5.2.0"
