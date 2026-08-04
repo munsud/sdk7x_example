@@ -20,21 +20,21 @@ PODS:
   - hermes-engine/Pre-built (0.73.11)
   - HMSegmentedControl (1.5.6)
   - libevent (2.1.12)
-  - libwebp (1.5.0):
-    - libwebp/demux (= 1.5.0)
-    - libwebp/mux (= 1.5.0)
-    - libwebp/sharpyuv (= 1.5.0)
-    - libwebp/webp (= 1.5.0)
-  - libwebp/demux (1.5.0):
+  - libwebp (1.6.0):
+    - libwebp/demux (= 1.6.0)
+    - libwebp/mux (= 1.6.0)
+    - libwebp/sharpyuv (= 1.6.0)
+    - libwebp/webp (= 1.6.0)
+  - libwebp/demux (1.6.0):
     - libwebp/webp
-  - libwebp/mux (1.5.0):
+  - libwebp/mux (1.6.0):
     - libwebp/demux
-  - libwebp/sharpyuv (1.5.0)
-  - libwebp/webp (1.5.0):
+  - libwebp/sharpyuv (1.6.0)
+  - libwebp/webp (1.6.0):
     - libwebp/sharpyuv
-  - MMKV (2.4.0):
-    - MMKVCore (~> 2.4.0)
-  - MMKVCore (2.4.0)
+  - MMKV (2.4.1):
+    - MMKVCore (~> 2.4.1)
+  - MMKVCore (2.4.1)
   - RCT-Folly (2022.05.16.00):
     - boost
     - DoubleConversion
@@ -1187,7 +1187,7 @@ PODS:
     - React-Core
   - RNStaticSafeAreaInsets (2.2.0):
     - React-Core
-  - RNSVG (15.15.3):
+  - RNSVG (15.15.5):
     - React-Core
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
@@ -1465,9 +1465,9 @@ SPEC CHECKSUMS:
   hermes-engine: d992945b77c506e5164e6a9a77510c9d57472c59
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
-  libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
-  MMKV: 86859fdfa2b0b21db1fd6e48788474a6416a2c77
-  MMKVCore: 3d16ce9f7d411e135020915fde98a056859a1efa
+  libwebp: af5937a13536ef73f3784d69cc342b98961acf33
+  MMKV: 63014ed88c63a43bbe2a1c9cf3a58f3654a5f4eb
+  MMKVCore: b29cd04b69f5794074e22183ba42ffee52445279
   RCT-Folly: cd21f1661364f975ae76b3308167ad66b09f53f5
   RCTRequired: 415e56f7c33799a6483e41e4dce607f3daf1e69b
   RCTSystemSetting: 4fde35f1f89fa6d644916b06d295837961a3b5b9
@@ -1537,7 +1537,7 @@ SPEC CHECKSUMS:
   RNSentry: b03eef7791e91c1b08c8e862415fa46c221b1a2a
   RNShare: 6d412a7338b855d2b75deb546552e83a37555012
   RNStaticSafeAreaInsets: 4696b82d3a11ba6f3a790159ddb7290f04abd275
-  RNSVG: 7c30db7db27afaa6e4d38a598371b98a1b2bd181
+  RNSVG: cf9aa40efa968809747123ba2f19fff160947f42
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   Sentry: d587a8fe91ca13503ecd69a1905f3e8a0fcf61be
