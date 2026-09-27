@@ -5,7 +5,7 @@
 #import <React/RCTLinkingManager.h>
 
 // For custom view controller
-#import "RNNCustomViewController.h"
+#import "MyViewController.h"
 
 #import "Orientation.h"
 //#import "RNSplashScreen.h"
@@ -39,9 +39,9 @@ static void InitializeFlipper(UIApplication *application) {
 #endif
   [super application:application didFinishLaunchingWithOptions:launchOptions];
   [ReactNativeNavigation
-    registerExternalComponent:@"我的外部新包"
+    registerExternalComponent:@"OnboardingViewController"
       callback:^UIViewController *(NSDictionary *props, RCTBridge *bridge) {
-        return [[RNNCustomViewController alloc] initWithProps:props];
+        return [[MyViewController alloc] init];
   }];
   return YES;
 }
